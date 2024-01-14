@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78141EE6319C86DDFB77FCDE /* Pods_JahongirQori.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C1C9B555F986707186B84A /* Pods_JahongirQori.framework */; };
 		A60319CB2B528AEB0027E3C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60319CA2B528AEB0027E3C9 /* AppDelegate.swift */; };
 		A60319CD2B528AEB0027E3C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60319CC2B528AEB0027E3C9 /* SceneDelegate.swift */; };
 		A60319CF2B528AEB0027E3C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60319CE2B528AEB0027E3C9 /* ViewController.swift */; };
-		A60319D22B528AEB0027E3C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60319D02B528AEB0027E3C9 /* Main.storyboard */; };
 		A60319D52B528AEB0027E3C9 /* JahongirQori.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A60319D32B528AEB0027E3C9 /* JahongirQori.xcdatamodeld */; };
 		A60319D72B528AEC0027E3C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60319D62B528AEC0027E3C9 /* Assets.xcassets */; };
 		A60319DA2B528AEC0027E3C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60319D82B528AEC0027E3C9 /* LaunchScreen.storyboard */; };
+		A60319E52B529CD80027E3C9 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60319E42B529CD80027E3C9 /* MainCollectionViewCell.swift */; };
+		A60319E82B52A1220027E3C9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60319E72B52A1220027E3C9 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05F04910F594FD4EED986685 /* Pods-JahongirQori.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JahongirQori.release.xcconfig"; path = "Target Support Files/Pods-JahongirQori/Pods-JahongirQori.release.xcconfig"; sourceTree = "<group>"; };
+		0C3A14B9FBAEAC575E192962 /* Pods-JahongirQori.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JahongirQori.debug.xcconfig"; path = "Target Support Files/Pods-JahongirQori/Pods-JahongirQori.debug.xcconfig"; sourceTree = "<group>"; };
 		A60319C72B528AEB0027E3C9 /* JahongirQori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JahongirQori.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A60319CA2B528AEB0027E3C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A60319CC2B528AEB0027E3C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A60319CE2B528AEB0027E3C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A60319D12B528AEB0027E3C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A60319D42B528AEB0027E3C9 /* JahongirQori.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JahongirQori.xcdatamodel; sourceTree = "<group>"; };
 		A60319D62B528AEC0027E3C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A60319D92B528AEC0027E3C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A60319DB2B528AEC0027E3C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60319E42B529CD80027E3C9 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		A60319E72B52A1220027E3C9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B8C1C9B555F986707186B84A /* Pods_JahongirQori.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JahongirQori.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78141EE6319C86DDFB77FCDE /* Pods_JahongirQori.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24C5DF1883EA3E7200FDC022 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C3A14B9FBAEAC575E192962 /* Pods-JahongirQori.debug.xcconfig */,
+				05F04910F594FD4EED986685 /* Pods-JahongirQori.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A60319BE2B528AEB0027E3C9 = {
 			isa = PBXGroup;
 			children = (
 				A60319C92B528AEB0027E3C9 /* JahongirQori */,
 				A60319C82B528AEB0027E3C9 /* Products */,
+				24C5DF1883EA3E7200FDC022 /* Pods */,
+				EABD028699C56962ECBFD732 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +76,57 @@
 		A60319C92B528AEB0027E3C9 /* JahongirQori */ = {
 			isa = PBXGroup;
 			children = (
+				A60319E62B52A11B0027E3C9 /* Model */,
+				A60319E12B529CB30027E3C9 /* VIew */,
 				A60319CA2B528AEB0027E3C9 /* AppDelegate.swift */,
 				A60319CC2B528AEB0027E3C9 /* SceneDelegate.swift */,
-				A60319CE2B528AEB0027E3C9 /* ViewController.swift */,
-				A60319D02B528AEB0027E3C9 /* Main.storyboard */,
 				A60319D62B528AEC0027E3C9 /* Assets.xcassets */,
 				A60319D82B528AEC0027E3C9 /* LaunchScreen.storyboard */,
 				A60319DB2B528AEC0027E3C9 /* Info.plist */,
 				A60319D32B528AEB0027E3C9 /* JahongirQori.xcdatamodeld */,
 			);
 			path = JahongirQori;
+			sourceTree = "<group>";
+		};
+		A60319E12B529CB30027E3C9 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				A60319E22B529CBC0027E3C9 /* Controller */,
+				A60319E32B529CC40027E3C9 /* Cell */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		A60319E22B529CBC0027E3C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A60319CE2B528AEB0027E3C9 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A60319E32B529CC40027E3C9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A60319E42B529CD80027E3C9 /* MainCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A60319E62B52A11B0027E3C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A60319E72B52A1220027E3C9 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EABD028699C56962ECBFD732 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8C1C9B555F986707186B84A /* Pods_JahongirQori.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A60319DE2B528AEC0027E3C9 /* Build configuration list for PBXNativeTarget "JahongirQori" */;
 			buildPhases = (
+				C4546403E3CD5F0F8FC647CD /* [CP] Check Pods Manifest.lock */,
 				A60319C32B528AEB0027E3C9 /* Sources */,
 				A60319C42B528AEB0027E3C9 /* Frameworks */,
 				A60319C52B528AEB0027E3C9 /* Resources */,
+				CEF7DA196623B1EACF4439F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,11 +191,52 @@
 			files = (
 				A60319DA2B528AEC0027E3C9 /* LaunchScreen.storyboard in Resources */,
 				A60319D72B528AEC0027E3C9 /* Assets.xcassets in Resources */,
-				A60319D22B528AEB0027E3C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4546403E3CD5F0F8FC647CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JahongirQori-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEF7DA196623B1EACF4439F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JahongirQori/Pods-JahongirQori-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JahongirQori/Pods-JahongirQori-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JahongirQori/Pods-JahongirQori-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A60319C32B528AEB0027E3C9 /* Sources */ = {
@@ -143,6 +245,8 @@
 			files = (
 				A60319CF2B528AEB0027E3C9 /* ViewController.swift in Sources */,
 				A60319CB2B528AEB0027E3C9 /* AppDelegate.swift in Sources */,
+				A60319E52B529CD80027E3C9 /* MainCollectionViewCell.swift in Sources */,
+				A60319E82B52A1220027E3C9 /* Model.swift in Sources */,
 				A60319D52B528AEB0027E3C9 /* JahongirQori.xcdatamodeld in Sources */,
 				A60319CD2B528AEB0027E3C9 /* SceneDelegate.swift in Sources */,
 			);
@@ -151,14 +255,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A60319D02B528AEB0027E3C9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A60319D12B528AEB0027E3C9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A60319D82B528AEC0027E3C9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,17 +387,19 @@
 		};
 		A60319DF2B528AEC0027E3C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C3A14B9FBAEAC575E192962 /* Pods-JahongirQori.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LYCXTPX25J;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JahongirQori/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,17 +417,19 @@
 		};
 		A60319E02B528AEC0027E3C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05F04910F594FD4EED986685 /* Pods-JahongirQori.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LYCXTPX25J;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = JahongirQori/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
